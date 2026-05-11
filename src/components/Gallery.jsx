@@ -37,7 +37,7 @@ export default function Gallery() {
                     <img
                         key={n}
                         ref={(el) => (imgRefs.current[i] = el)}
-                        src={`/images/${n}.jpg`}
+                        src={`./images/${n}.jpg`}
                         alt={`Gallery Image ${n}`}
                         className="w-full mb-4 rounded-xl object-cover break-inside-avoid shadow-lg"
                     />

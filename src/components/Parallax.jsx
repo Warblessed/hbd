@@ -46,7 +46,7 @@ export default function Parallax() {
             {/* Background image */}
             <img
                 ref={bgRef}
-                src="/images/hero1.jpg"
+                src="./images/hero1.jpg"
                 alt="Parallax Background"
                 className="absolute inset-0 h-[120%] w-full object-cover"
             />
@@ -54,7 +54,7 @@ export default function Parallax() {
             {/* Foreground decorations */}
             <img
                 ref={fgRef}
-                src="/images/confettipoppers.png" // e.g., hearts, sparkles, confetti PNG
+                src="./images/confettipoppers.png" // e.g., hearts, sparkles, confetti PNG
                 alt="Foreground Decorations"
                 className="absolute inset-0 h-[100%] w-full object-cover pointer-events-none opacity-30"
             />

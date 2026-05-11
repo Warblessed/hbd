@@ -33,7 +33,7 @@ export default function Intro() {
         >
             {/* 🖼️ Background image */}
             <img
-                src="/images/intro.jpg"
+                src="./images/intro.jpg"
                 className="absolute inset-0 w-full h-full object-cover scale-110 blur-[1px]"
             />
 
