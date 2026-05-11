@@ -37,7 +37,7 @@ export default function Hero() {
 
     return (
         <section className="relative h-screen overflow-hidden">
-            <img ref={imageRef} src="/images/hero.jpg" alt="Hero" className="absolute inset-0 z-0 h-full w-full object-cover" />
+            <img ref={imageRef} src="./images/hero.jpg" alt="Hero" className="absolute inset-0 z-0 h-full w-full object-cover" />
             <div className="absolute inset-0 z-10 bg-black/50" />
             <div className="relative z-20 flex h-full flex-col items-center justify-center text-center text-white">
                 <h1 ref={titleRef} className="text-6xl md:text-8xl font-bold tracking-tight">HAPPY BIRTHDAY!!! <br/> LYKA MAE!</h1>
