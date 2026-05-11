@@ -26,7 +26,7 @@ export default function Music() {
   return (
     <audio
       ref={audioRef}
-      src="/music/music.mp3"
+      src="./music/music.mp3"
       loop
     />
   );
