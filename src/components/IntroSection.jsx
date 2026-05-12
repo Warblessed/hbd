@@ -58,14 +58,14 @@ export default function Intro() {
                     ref={line1}
                     className="text-4xl md:text-6xl font-bold text-white"
                 >
-                    Nyapiii Mertdeyy! Ano lang to eme eme lang. Dont worry.
+                    Nyapiii Mertnneyy no yuu! Ano lang to eme eme lang. Dont worry.
                 </h2>
 
                 <h3
                     ref={line2}
                     className="text-xl md:text-2xl mt-6 text-white/80"
                 >
-                    Sasabihin na naman niya "Masyado niyo na naman akong mahal, guys!" <br /> Oo na, sige na. Hahahahah Sorry if mejo di ganun ka ganda yung design pero hopia lyk it!
+                    Sasabihin na naman niya "Masyado niyo na naman akong mahal, guys!" <br /> Siyempre namernn. Hahahahah Sorry if mejo di ganun ka ganda yung design pero hopia lyk it!
                 </h3>
             </div>
         </section>
