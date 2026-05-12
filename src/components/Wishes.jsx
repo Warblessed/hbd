@@ -22,7 +22,7 @@ export default function Wishes() {
         "Marami pang adventures ang naghihintay sayo!! 🌈",
         "More inis galing sakin/samin ng H2O 😭😭",
         "Marami pang wishes e pero sa panaginip ko nalang tutuloy pag nagkita tayo!! Hehe!💤🧸",
-        "Last but not the least! STAY HYDRATED!! MOREE TUBIGGG!!!!💦💦" + <br/> + "Okay 1 LAGOK = 1 liter dapat ah",
+        "Last but not the least! STAY HYDRATED!! MOREE TUBIGGG!!!!💦💦 Okay 1 LAGOK = 1 liter dapat ah",
     ];
 
     useEffect(() => {
