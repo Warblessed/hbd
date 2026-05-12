@@ -3,7 +3,7 @@ import Swal from 'sweetalert2';
 export default function Footer() {
     const handleClick = () => {
         Swal.fire({
-            title: "Happy Birthday, Lyka Mae! 🎉",
+            title: "AY PININDOT TALAGA OH!! HAHAHAHA Happy Birthday!!! Lyka Mae! 🎉",
             text: `Happy Birthday!!! Sa nag iisang Lyka Mae,LPT!! fridayly, pang, pangpang, laykaamii, lykie, lyka, kung ano pa yan kahit aso? emeee HAHAHAHA 
                     May(mae) your day be full of blessing and happiness!! 24 kana ate. Malayo layo narin nalakbay mo, di man ganon kadali pero look at u pretty parin Hahahahah. 
                     Pero yehhh di madali kaya pat urself. Congrats sa mga challenges na nalagpasan mo before! hindi rin madali yun and u managed to overcome it dibaa naks and 
@@ -38,9 +38,28 @@ export default function Footer() {
             {/* SweetAlert Button */}
             <button
                 onClick={handleClick}
-                className="mt-6 px-6 py-3 bg-pink-500 text-white rounded-lg hover:bg-pink-600 transition"
+                className="
+        relative mt-6 px-8 py-4
+        bg-gradient-to-r from-pink-500 via-fuchsia-500 to-purple-500
+        text-white font-bold text-lg
+        rounded-2xl shadow-[0_0_25px_rgba(236,72,153,0.6)]
+        hover:scale-110 hover:rotate-1
+        hover:shadow-[0_0_40px_rgba(217,70,239,0.9)]
+        active:scale-95
+        transition-all duration-300 ease-out
+        overflow-hidden
+        animate-pulse
+        before:absolute before:inset-0
+        before:bg-white/20
+        before:translate-x-[-100%]
+        hover:before:translate-x-[100%]
+        before:transition-transform before:duration-700
+    "
             >
-                Wag mong pindutin to, nakakatakot! huhu 👻👻
+                <span className="relative z-10 flex items-center gap-2">
+                    ❗❗❗ CLICK AT UR OWN RISK ❗❗❗
+                    <span className="animate-bounce">👉</span>
+                </span>
             </button>
         </footer>
     );
