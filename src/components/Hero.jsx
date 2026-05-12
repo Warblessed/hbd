@@ -45,7 +45,6 @@ export default function Hero() {
                     <br/> 
                     Manifesting na this year more wins, blessings, successful plans, at peace of mind. 
                     Sana lahat ng iniyakan mo noon mapalitan ng dahilan para ngumiti ka ngayon! Sige baba ka na!</p>
-                
             </div>
             <div className="absolute inset-0 z-30 pointer-events-none opacity-20 mix-blend-overlay bg-[url('/images/noise.png')]" />
         </section>
