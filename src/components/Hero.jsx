@@ -44,6 +44,7 @@ export default function Hero() {
                 <p ref={subtitleRef} className="mt-6 text-lg md:text-xl text-zinc-300">How u doin?? Syempre enjoyyy ur madafakingg day!!! 
                     <br/> 
                     Manifesting na this year more wins, blessings, successful plans, at peace of mind zauuu. 
+                    <br/> 
                     Smile ka muna kasi mertdey muuu!!! Sige baba ka na!</p>
             </div>
             <div className="absolute inset-0 z-30 pointer-events-none opacity-20 mix-blend-overlay bg-[url('/images/noise.png')]" />

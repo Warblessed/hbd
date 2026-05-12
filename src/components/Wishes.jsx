@@ -54,7 +54,7 @@ export default function Wishes() {
                     Since Day One 💌 Ayeee mala Flow-G lang yerrnn??
                 </h2>
                 <p className="text-center text-zinc-600 mb-14 text-lg">
-                    Some little wishes for you. Hihihi...
+                    Some little wishes for someeee...one special!. Hihihi...
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-6">
