@@ -18,11 +18,11 @@ export default function Wishes() {
         "You deserve the happiest days, yes always naman 🌷",
         "Enjoy your day!!!🎈🎈 coz u dzurb it tho!!",
         "Thank you for being kind always! Napaka maintindihin mooo!!💛",
-        "Stay awesome, pretty, gorgeous and keep shining! Naks! ✨",
+        "Stay awesome, pretty, gorgeous and keep shining! Naks! Shining shimering splendid! ✨",
         "Marami pang adventures ang naghihintay sayo!! 🌈",
-        "More inis galing sakin/samin ng H2O",
-        "Marami pang wishes e pero sa panaginip ko nalang tutuloy pag nagkita tayo!! Hehe!",
-        "Last but not the least! STAY HYDRATED!! MOREE TUBIGGG!!!!💦💦 Okay LAGOK = 1 liter dapat ah",
+        "More inis galing sakin/samin ng H2O 😭😭",
+        "Marami pang wishes e pero sa panaginip ko nalang tutuloy pag nagkita tayo!! Hehe!💤🧸",
+        "Last but not the least! STAY HYDRATED!! MOREE TUBIGGG!!!!💦💦" + <br/> + "Okay 1 LAGOK = 1 liter dapat ah",
     ];
 
     useEffect(() => {
