@@ -43,8 +43,8 @@ export default function Hero() {
                 <h1 ref={titleRef} className="text-6xl md:text-8xl font-bold tracking-tight">HAPPY BIRTHDAY!!! <br/> LYKA MAE!</h1>
                 <p ref={subtitleRef} className="mt-6 text-lg md:text-xl text-zinc-300">How u doin?? Syempre enjoyyy ur madafakingg day!!! 
                     <br/> 
-                    Manifesting na this year more wins, blessings, successful plans, at peace of mind. 
-                    Sana lahat ng iniyakan mo noon mapalitan ng dahilan para ngumiti ka ngayon! Sige baba ka na!</p>
+                    Manifesting na this year more wins, blessings, successful plans, at peace of mind zauuu. 
+                    Smile ka muna kasi mertdey muuu!!! Sige baba ka na!</p>
             </div>
             <div className="absolute inset-0 z-30 pointer-events-none opacity-20 mix-blend-overlay bg-[url('/images/noise.png')]" />
         </section>
