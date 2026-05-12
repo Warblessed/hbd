@@ -6,21 +6,41 @@ export default function Music() {
   useEffect(() => {
     const audio = audioRef.current;
 
-    // autoplay muted (allowed)
-    audio.muted = true;
-    audio.play().catch(() => {});
+    if (!audio) return;
 
-    // unmute on first user interaction
-    const enableSound = () => {
-      audio.muted = false;
-      audio.volume = 0.8;
+    // Start muted autoplay
+    audio.muted = true;
+    audio.volume = 0.8;
+
+    audio.play().catch((err) => {
+      console.log("Autoplay blocked:", err);
+    });
+
+    // Enable sound after first interaction
+    const enableSound = async () => {
+      try {
+        audio.muted = false;
+
+        // some browsers require play() again
+        await audio.play();
+      } catch (err) {
+        console.log("Playback failed:", err);
+      }
 
       window.removeEventListener("click", enableSound);
+      window.removeEventListener("touchstart", enableSound);
       window.removeEventListener("scroll", enableSound);
     };
 
     window.addEventListener("click", enableSound);
+    window.addEventListener("touchstart", enableSound);
     window.addEventListener("scroll", enableSound);
+
+    return () => {
+      window.removeEventListener("click", enableSound);
+      window.removeEventListener("touchstart", enableSound);
+      window.removeEventListener("scroll", enableSound);
+    };
   }, []);
 
   return (
@@ -28,6 +48,7 @@ export default function Music() {
       ref={audioRef}
       src="./music/music.mp3"
       loop
+      playsInline
     />
   );
 }
